@@ -26,7 +26,7 @@
             .css('position', 'absolute')
             .css('top', '15px')
             .css('left', '15px')
-            .css('z-index', '1000');
+            .css('z-index', '-1000');
         this.append(container);
 
         // Create the pixels
