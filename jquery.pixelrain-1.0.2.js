@@ -6,7 +6,8 @@
         // We use a slightly smaller body
         var pixels = [],
             bodyWidth = this.width() - 30,
-            bodyHeight = this.height() - 30;
+            bodyHeight = this.height() - 30,
+            body = this;
 
         //Set some deafult options
         var settings = $.extend({
@@ -54,6 +55,10 @@
 
             for(var i = 0; i<pixels.length; i++)
             {
+                //update body sizes in case of resize
+                bodyWidth = body.width() - 30;
+                bodyHeight = body.height() - 30;
+
                 var randL = Math.floor((Math.random()*bodyWidth)+1),
                     randT = Math.floor((Math.random()*bodyHeight)+1);
 
