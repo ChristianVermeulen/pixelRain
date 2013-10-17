@@ -14,7 +14,8 @@
             // These are the defaults.
             amount: 100,
             interval: 100,
-            pixelColor: "#000000"
+            pixelColor: "#000000",
+            pixelSize: 1
         }, options );
 
         // Create a container element
@@ -39,8 +40,8 @@
                 pixel = $(elPixel);
 
             pixel
-                .css('width', '2px')
-                .css('height', '2px')
+                .css('width', settings.pixelSize+'px')
+                .css('height', settings.pixelSize+'px')
                 .css('background-color', settings.pixelColor)
                 .css('position', 'absolute')
                 .css('left', randL)
