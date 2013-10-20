@@ -9,10 +9,9 @@
         "random",
         "responsive",
         "window",
-        "mobile",
-
+        "mobile"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": {
         "name": "Christian Vermeulen",
         "url": "http://www.christianvermeulen.net",

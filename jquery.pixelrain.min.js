@@ -1,7 +1,7 @@
 /*************************************************
 * Pixel Rain
 *
-* Versionv1.0.4
+* Versionv1.0.5
 * Date: 2013-10-20
 * URL: https://github.com/ChristianVermeulen/pixelRain
 *
