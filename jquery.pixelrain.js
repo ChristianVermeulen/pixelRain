@@ -1,3 +1,13 @@
+/*************************************************
+* Pixel Rain
+*
+* Versionv1.0.4
+* Date: 2013-10-20
+* URL: https://github.com/ChristianVermeulen/pixelRain
+*
+* Copyright (c) 2013 Christian Vermeulen
+**************************************************/
+
 (function ( $ ) {
 
     $.fn.pixelRain = function( options ) {

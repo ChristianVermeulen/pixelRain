@@ -17,6 +17,7 @@ Next you add this piece of javascript to activate the pixelrain (these are defau
 ```js
     $("body").pixelRain({
         pixelColor: "#000000", // The color of the pixels
+        pixelSize: 1, // The color of the pixels
         interval: 100, // How fast should they rearrange (in ms)
         amount: 100 // How many pixels do you want
     });
@@ -26,7 +27,7 @@ Next you add this piece of javascript to activate the pixelrain (these are defau
 
 In the future I want to implement more features:
 
-* Choose between 'rain' and 'random'
+* Choose between 'rain' and 'random' mode
 * Give an array of colors to randomly choose from
 
 ## Collaboration
